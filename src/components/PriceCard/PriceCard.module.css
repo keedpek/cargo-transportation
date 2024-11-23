@@ -1,0 +1,109 @@
+.pricingCard {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 100%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.pricingCard:hover {
+  transform: scale(1.05);
+}
+
+.image {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.title {
+  font-size: 18px;
+  color: #222;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.orderButton {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  width: 100%;
+  text-align: center;
+}
+
+.orderButton:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 1170px) {
+  .description {
+    font-size: 14px;
+  }
+
+  .title {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .pricingCard {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+
+  .pricingCard:hover {
+    transform: none;
+  }
+
+  .title {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .pricingCard {
+    width: 100%;
+    height: 350px;
+    margin-bottom: 20px;
+  }
+
+  .image {
+    object-fit: cover;
+    object-position: bottom;
+    width: 100%;
+    height: 100%;
+  }
+
+  .serviceInfo {
+    padding: 15px;
+  }
+
+  .title {
+    font-size: 16px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+}
