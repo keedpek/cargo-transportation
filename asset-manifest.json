@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cargo-transportation/static/css/main.f6198a81.css",
-    "main.js": "/cargo-transportation/static/js/main.45d79649.js",
+    "main.js": "/cargo-transportation/static/js/main.63e17920.js",
     "static/media/background.png": "/cargo-transportation/static/media/background.55ca6632067a9aaefafd.png",
     "static/media/country_transportation.png": "/cargo-transportation/static/media/country_transportation.5ac254a2f6dcdf07e76a.png",
     "static/media/loader.png": "/cargo-transportation/static/media/loader.33f6be0bf54c4265aeda.png",
@@ -27,10 +27,10 @@
     "static/media/telIcoWithoutEclipse.svg": "/cargo-transportation/static/media/telIcoWithoutEclipse.a424d5d76a9fb9627ff3243952f0d116.svg",
     "index.html": "/cargo-transportation/index.html",
     "main.f6198a81.css.map": "/cargo-transportation/static/css/main.f6198a81.css.map",
-    "main.45d79649.js.map": "/cargo-transportation/static/js/main.45d79649.js.map"
+    "main.63e17920.js.map": "/cargo-transportation/static/js/main.63e17920.js.map"
   },
   "entrypoints": [
     "static/css/main.f6198a81.css",
-    "static/js/main.45d79649.js"
+    "static/js/main.63e17920.js"
   ]
 }
