@@ -26,7 +26,7 @@
   flex-direction: column;
   gap: 20px;
   width: 55%;
-  z-index: 1000;
+  z-index: 500;
 }
 
 .telIco {
@@ -41,7 +41,7 @@
   color: white;
   font-size: 18px;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 30px;
   width: 25%;
 }
 
@@ -105,6 +105,10 @@
     padding: 50px 5%;
   }
 
+  .header {
+    font-size: 32px;
+  }
+
   .imagesContainer {
     right: 30px;
     top: 100px;
@@ -120,4 +124,11 @@
 }
 
 @media (max-width: 480px) {
+  .header {
+    font-size: 28px;
+  }
+
+  .header::before {
+    width: 20%;
+  }
 }

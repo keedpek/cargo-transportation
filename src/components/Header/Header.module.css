@@ -63,6 +63,58 @@ header {
 
 .burgerBtn {
   display: none;
+  position: relative;
+  width: 30px;
+  height: 25px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1100;
+}
+
+.burgerBtn::before,
+.burgerBtn::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background-color: var(--main-text-color);
+  border-radius: 10px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  left: 0;
+}
+
+.burgerBtn::before {
+  top: 0;
+}
+
+.burgerBtn::after {
+  bottom: 0;
+}
+
+.burgerBtn.open::before {
+  transform: rotate(45deg) translateY(19px);
+}
+
+.burgerBtn.open::after {
+  transform: rotate(-45deg) translateY(-19px);
+}
+
+/* Полоса центра */
+.burgerBtn span {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 30px;
+  height: 3px;
+  background-color: var(--main-text-color);
+  border-radius: 10px;
+  transition: opacity 0.3s ease;
+  transform: translateY(-50%);
+}
+
+.burgerBtn.open span {
+  opacity: 0;
 }
 
 @media (max-width: 1170px) {
@@ -104,15 +156,52 @@ header {
     width: 90%;
   }
 
+  .nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--background-color-2);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    z-index: 1005;
+  }
+
+  .nav.open {
+    opacity: 1;
+    visibility: visible;
+  }
+
   .ul {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
 
   .burgerBtn {
     display: block;
-    border: 1px solid black;
     width: 30px;
     height: 30px;
+  }
+}
+
+@media (max-width: 552px) {
+  .vertical {
+    display: none;
+  }
+
+  .phoneNum {
+    display: none;
+  }
+
+  .buttons {
+    display: none;
   }
 }
 
@@ -121,16 +210,12 @@ header {
     gap: 5px;
   }
 
-  .vertical {
-    height: 30%;
-  }
-
-  .buttons {
-    gap: 5px;
-  }
-
   .h1 {
     font-size: 12px;
+  }
+
+  .logo {
+    width: 30px;
   }
 
   .a {
