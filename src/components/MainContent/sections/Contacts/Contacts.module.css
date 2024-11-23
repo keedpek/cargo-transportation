@@ -44,6 +44,9 @@
   cursor: pointer;
   font-size: 16px;
   font-weight: 600;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
 }
 
 .callBtn:hover {

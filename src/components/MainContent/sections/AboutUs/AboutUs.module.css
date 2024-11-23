@@ -4,6 +4,7 @@
   flex-direction: column;
   padding: 50px 15%;
   gap: 40px;
+  position: relative;
 }
 
 .header {
@@ -24,14 +25,99 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  width: 40%;
+  width: 55%;
+  z-index: 1000;
 }
 
-.ul {
-  padding-left: 20px;
-  font-family: Montserrat;
-  font-size: 18px;
+.telIco {
+  width: 50px;
+}
+
+.contactButton {
   display: flex;
-  flex-direction: column;
-  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 5px;
+  width: 25%;
+}
+
+.contactButton:hover {
+  background-color: #0056b3;
+}
+
+.imagesContainer {
+  width: 300px;
+  height: 500px;
+  top: 50px;
+  right: 100px;
+  position: absolute;
+}
+
+.mainImage {
+  width: 300px;
+  position: absolute;
+  right: 0;
+}
+
+.secondaryImage {
+  position: absolute;
+  width: 300px;
+  right: 160px;
+  top: 170px;
+}
+
+@media (max-width: 1168px) {
+  .imagesContainer {
+    right: 100px;
+    top: 100px;
+  }
+
+  .mainImage {
+    width: 200px;
+  }
+
+  .secondaryImage {
+    width: 200px;
+    right: 100px;
+    top: 120px;
+  }
+
+  .text {
+    font-size: 12px;
+  }
+
+  .telIco {
+    width: 40px;
+  }
+
+  .contactButton {
+    font-size: 14px;
+    width: 30%;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    padding: 50px 5%;
+  }
+
+  .imagesContainer {
+    right: 30px;
+    top: 100px;
+  }
+
+  .mainImage {
+    position: absolute;
+  }
+
+  .secondaryImage {
+    position: absolute;
+  }
+}
+
+@media (max-width: 480px) {
 }

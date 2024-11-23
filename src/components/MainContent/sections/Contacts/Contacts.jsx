@@ -24,7 +24,7 @@ const Contacts = () => {
           <p>{TELEPHONE_NUMBER}</p>
         </li>
       </ul>
-      <a href={`tel:${TELEPHONE_NUMBER}`}> <button className={styles.callBtn}>Позвони!</button> </a>
+      <a className={styles.callBtn} href={`tel:${TELEPHONE_NUMBER}`}> Позвони! </a>
     </section>
   );
 };
