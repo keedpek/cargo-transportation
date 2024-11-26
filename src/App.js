@@ -3,7 +3,7 @@ import AppRouter from "routers/AppRouter";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/cargo-transportation">
       <AppRouter />
     </BrowserRouter>
   );
