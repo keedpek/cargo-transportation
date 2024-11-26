@@ -141,6 +141,7 @@
 
   .h3 {
     margin: 0;
+    text-align: center;
   }
 
   .contacts {
@@ -156,11 +157,11 @@
   }
 
   .logo {
-    width: 30px;
+    width: 50px;
   }
 
   .title {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   .h2 {
