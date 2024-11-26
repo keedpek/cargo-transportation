@@ -8,7 +8,8 @@ import { FOOTER_TEXT, HREF_TELEPHONE_NUMBER, TELEPHONE_NUMBER } from 'consts/con
 const Footer = () => {
   return (
     <footer className={styles.footer}>
-      <div className={styles.footerSection}>
+    
+      <div className={styles.companyInfo}>
         <div className={styles.logoContainer}>
           <img className={styles.logo} src={logo} alt='logo' />
           <span className={styles.title}>GRUZOPEREVOZKA</span>
@@ -17,7 +18,6 @@ const Footer = () => {
       </div>
 
       <div className={styles.footerSection}>
-        <div>
         <h2 id='contacts'>Контакты :</h2>
         <div className={styles.contacts}>
           <a href={`tel:${HREF_TELEPHONE_NUMBER}`} className={styles.phone}>{TELEPHONE_NUMBER}</a>
@@ -30,11 +30,9 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        </div>
       </div>
 
       <div className={styles.footerSection}>
-        <div>
         <h2>Меню :</h2>
         <ul className={styles.ul}>
           <li className={styles.li}>
@@ -47,7 +45,6 @@ const Footer = () => {
             <a href='#contacts' className={styles.a}>Контакты</a>
           </li>
         </ul>
-        </div>
       </div>
 
     </footer>

@@ -11,6 +11,7 @@
     #2baace 0%,
     #0180ff 100%
   ); /* Основной цвет */
+  --primary-text-color: #0180ff;
   --primary-dark-color: linear-gradient(45deg, #2698b8 0%, #0056b3 100%);
   --accent-color: #01ff5e; /* Акцентный цвет */
   --main-text-color: #000000;

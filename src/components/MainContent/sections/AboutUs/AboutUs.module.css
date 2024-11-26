@@ -16,7 +16,7 @@
   content: "";
   display: block;
   width: 10%;
-  border: 3px solid var(--primary-color);
+  border: 3px solid var(--primary-text-color);
   border-radius: 10px;
   margin-bottom: 15px;
 }
@@ -46,7 +46,7 @@
 }
 
 .liIcon {
-  background-color: var(--primary-dark-color);
+  background: var(--primary-dark-color);
   border-radius: 50%;
   display: flex;
   padding: 10px;
