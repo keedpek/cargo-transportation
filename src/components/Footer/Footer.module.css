@@ -1,10 +1,29 @@
 .footer {
   display: flex;
-  height: 100px;
-  background-color: var(--primary-dark-color);
+  background: var(--primary-dark-color);
   padding: 20px 15%;
   justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footerSection {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  & h2 {
+    color: #ffffff;
+    font-size: 20px;
+    width: fit-content;
+    &::after {
+      content: "";
+      display: block;
+      width: 100%;
+      border: 2px solid #ffffff;
+      border-radius: 10px;
+      margin: 5px 0 15px;
+    }
+  }
 }
 
 .logoContainer {
@@ -13,10 +32,25 @@
   gap: 10px;
 }
 
-.h2 {
+.title {
   color: #ffffff;
-  font-size: 24px;
-  font-weight: 400;
+  font-size: 20px;
+  font-family: Righteous;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.h3 {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 200;
+  margin: 10px 0 0 70px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .buttons {
@@ -24,10 +58,39 @@
   gap: 10px;
 }
 
-.contacts {
+.icons {
+  width: 48px;
+}
+
+.phone {
   font-weight: 600;
   font-size: 20px;
   color: white;
+  text-decoration: none;
+}
+
+.ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.li {
+  list-style-type: none;
+}
+
+.a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  &:hover {
+    color: #aaaaaa;
+  }
+  &:focus {
+    outline: none;
+    color: #aaaaaa;
+  }
 }
 
 @media (max-width: 768px) {

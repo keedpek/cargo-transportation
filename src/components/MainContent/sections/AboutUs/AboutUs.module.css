@@ -1,5 +1,5 @@
 .wrapper {
-  background-color: var(--background-color-1);
+  background-color: var(--background-color-2);
   display: flex;
   flex-direction: column;
   padding: 50px 15%;
@@ -27,6 +27,33 @@
   gap: 20px;
   width: 55%;
   z-index: 500;
+}
+
+.mobileText {
+  display: none;
+  width: 50%;
+  & ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+.listItem {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.liIcon {
+  background-color: var(--primary-dark-color);
+  border-radius: 50%;
+  display: flex;
+  padding: 10px;
+  & img {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 .telIco {
@@ -71,6 +98,10 @@
 }
 
 @media (max-width: 1168px) {
+  .wrapper {
+    gap: 20px;
+  }
+
   .imagesContainer {
     right: 100px;
     top: 100px;
@@ -114,12 +145,21 @@
     top: 100px;
   }
 
+  .text {
+    display: none;
+  }
+
+  .mobileText {
+    display: block;
+  }
+
   .mainImage {
     position: absolute;
+    top: 10%;
   }
 
   .secondaryImage {
-    position: absolute;
+    display: none;
   }
 }
 
@@ -130,5 +170,17 @@
 
   .header::before {
     width: 20%;
+  }
+
+  .mainImage {
+    display: none;
+  }
+
+  .mobileText {
+    width: 100%;
+  }
+
+  .contactButton {
+    width: 100%;
   }
 }

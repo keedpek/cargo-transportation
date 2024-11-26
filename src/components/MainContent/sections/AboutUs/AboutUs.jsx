@@ -3,21 +3,45 @@ import styles from './AboutUs.module.css'
 import van from 'assets/aboutUs1.png'
 import team from 'assets/aboutUs2.png'
 import telIco from 'assets/telIcoWithoutEclipse.svg'
+import about1 from 'assets/about1.svg'
+import about2 from 'assets/about2.svg'
+import about3 from 'assets/about3.svg'
+import { ABOUT_DESCKTOP, ABOUT_MOBILE } from 'consts/consts';
 
 const AboutUs = () => {
   return (
     <section className={styles.wrapper}>
       <h2 className={styles.header}>О НАС</h2>
       <div className={styles.text}>
-        <p>
-        Наша компания — это профессиональный подход к грузоперевозкам, надёжность и высокий уровень сервиса. Мы успешно работаем на рынке уже более 10 лет, обеспечивая качественную и своевременную доставку грузов любой сложности по Минску, области и всей Республике Беларусь.
-        </p>
-        <p>
-          Мы гордимся тем, что наши клиенты доверяют нам не только перевозку вещей, но и свой покой. Благодаря слаженной работе команды и широкому автопарку, мы предлагаем решения для самых разных задач — от небольших квартирных переездов до масштабных грузоперевозок по стране.
-        </p>
-        <p>
-          Доверьте свой груз профессионалам — мы заботимся о том, чтобы каждая доставка оставляла только положительные эмоции!
-        </p>
+        <p>{ABOUT_DESCKTOP.p1}</p>
+        <p>{ABOUT_DESCKTOP.p2}</p>
+        <p>{ABOUT_DESCKTOP.p3}</p>
+      </div>
+      <div className={styles.mobileText}>
+        <ul>
+
+          <li className={styles.listItem}>
+            <div className={styles.liIcon}>
+              <img src={about1} alt='' />
+            </div>
+            <p>{ABOUT_MOBILE.p1}</p>
+          </li>
+
+          <li className={styles.listItem}>
+            <div className={styles.liIcon}>
+              <img src={about2} alt='' />
+            </div>
+            <p>{ABOUT_MOBILE.p2}</p>
+          </li>
+
+          <li className={styles.listItem}>
+            <div className={styles.liIcon}>
+              <img src={about3} alt='' />
+            </div>
+            <p>{ABOUT_MOBILE.p3}</p>
+          </li>
+
+        </ul>
       </div>
       <a href="#contacts" class={styles.contactButton}>
         <img className={styles.telIco} src={telIco} alt=''/>

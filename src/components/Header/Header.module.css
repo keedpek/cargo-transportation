@@ -10,7 +10,7 @@ header {
 
 .companyWrapper {
   display: flex;
-  width: 50%;
+  width: 60%;
   height: 100%;
   gap: 15px;
   align-items: center;
@@ -59,6 +59,9 @@ header {
 .h1 {
   color: var(--main-text-color);
   font-size: 24px;
+  font-family: Righteous;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
 
 .burgerBtn {
@@ -151,6 +154,14 @@ header {
     padding: 0 5%;
   }
 
+  .h1 {
+    font-size: 16px;
+  }
+
+  .logo {
+    width: 48px;
+  }
+
   .companyWrapper {
     width: 90%;
   }
@@ -190,7 +201,7 @@ header {
   }
 }
 
-@media (max-width: 552px) {
+@media (max-width: 600px) {
   .vertical {
     display: none;
   }
@@ -207,14 +218,6 @@ header {
 @media (max-width: 480px) {
   .companyWrapper {
     gap: 5px;
-  }
-
-  .h1 {
-    font-size: 16px;
-  }
-
-  .logo {
-    width: 30px;
   }
 
   .a {

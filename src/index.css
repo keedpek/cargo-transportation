@@ -6,8 +6,12 @@
 }
 
 :root {
-  --primary-color: /*#005fcb*/ #0180ff; /* Основной цвет */
-  --primary-dark-color: #0056b3;
+  --primary-color: /*#005fcb*/ linear-gradient(
+    45deg,
+    #2baace 0%,
+    #0180ff 100%
+  ); /* Основной цвет */
+  --primary-dark-color: linear-gradient(45deg, #2698b8 0%, #0056b3 100%);
   --accent-color: #01ff5e; /* Акцентный цвет */
   --main-text-color: #000000;
   --background-color-1: #e4e4e4; /* Цвет фона */

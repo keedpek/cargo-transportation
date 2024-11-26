@@ -10,13 +10,14 @@ import van2 from 'assets/van2.png'
 import van25 from 'assets/van25.png'
 import van3 from 'assets/van3.png'
 import van5 from 'assets/van5.png'
-import loaderPrice from 'assets/loader_price.png'
-import floor from 'assets/floor.png'
-import garbage from 'assets/garbage.png'
+import loaderPrice from 'assets/loader_price.jpg'
+import floor from 'assets/floor.jpg'
+import garbage from 'assets/garbage.jpg'
 
 export const MAIN_ROUTE = '/'
 
-export const TELEPHONE_NUMBER = '+375333747776'
+export const TELEPHONE_NUMBER = '+375 44 538-15-85'
+export const HREF_TELEPHONE_NUMBER = '+375445381585'
 export const EMAIL = 'GRUZOPEREVOZKI@gmail.com'
 
 export const SERVICES = [
@@ -102,8 +103,8 @@ export const ADD_PRICES = [
   },
   {
     title: 'ВЫВОЗ МУСОРА (без грузчика)',
-    price1: 'от 50 руб за 1 час',
-    price2: 'от 1,6 руб/км за городом',
+    price1: 'До 1 тонны – от 100 р',
+    price2: 'До 2 тонн – от 150 р',
     description: `Догруз, без жестких сроков, до 500 кг – от 70 р
                   До 1 тонны – от 100 р
                   До 2 тонн – от 150 р
@@ -113,3 +114,17 @@ export const ADD_PRICES = [
     img: garbage,
   },
 ]
+
+export const ABOUT_DESCKTOP = {
+  p1: 'Наша компания — это профессиональный подход к грузоперевозкам, надёжность и высокий уровень сервиса. Мы успешно работаем на рынке уже более 10 лет, обеспечивая качественную и своевременную доставку грузов любой сложности по Минску, области и всей Республике Беларусь.',
+  p2: 'Мы гордимся тем, что наши клиенты доверяют нам не только перевозку вещей, но и свой покой. Благодаря слаженной работе команды и широкому автопарку, мы предлагаем решения для самых разных задач — от небольших квартирных переездов до масштабных грузоперевозок по стране.',
+  p3: 'Доверьте свой груз профессионалам — мы заботимся о том, чтобы каждая доставка оставляла только положительные эмоции!',
+} 
+
+export const ABOUT_MOBILE = {
+  p1: 'Опытная команда: мы занимаемся грузоперевозками уже более 10 лет.',
+  p2: 'Широкий парк транспорта: от газелей до фур и спецтехники',
+  p3: 'Фокус на безопасность: мы заботимся о сохранности вашего груза на всех этапах доставки.'
+}
+
+export const FOOTER_TEXT = 'Профессианальные услуги по грузоперевозкам по Минску и Беларуси'

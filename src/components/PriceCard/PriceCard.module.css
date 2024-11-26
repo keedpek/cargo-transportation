@@ -1,5 +1,7 @@
 .pricingCard {
   background: white;
+  display: flex;
+  flex-direction: column;
   border: 1px solid #ddd;
   border-radius: 8px;
   width: 100%;
@@ -21,8 +23,9 @@
 .info {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 15px;
   padding: 20px;
+  flex-grow: 1;
 }
 
 .title {
@@ -41,7 +44,7 @@
 }
 
 .orderButton {
-  background-color: var(--primary-color);
+  background: var(--primary-color);
   color: white;
   padding: 10px 20px;
   border: none;
@@ -50,10 +53,11 @@
   font-size: 18px;
   width: 100%;
   text-align: center;
+  margin-top: auto;
 }
 
 .orderButton:hover {
-  background-color: var(--primary-dark-color);
+  background: var(--primary-dark-color);
 }
 
 @media (max-width: 1170px) {
@@ -70,22 +74,10 @@
   .pricingCard:hover {
     transform: none;
   }
-
-  .title {
-    font-size: 16px;
-  }
 }
 
 @media (max-width: 480px) {
   .serviceInfo {
     padding: 15px;
-  }
-
-  .title {
-    font-size: 16px;
-  }
-
-  .description {
-    font-size: 14px;
   }
 }

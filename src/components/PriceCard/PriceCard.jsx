@@ -28,7 +28,7 @@ const PriceCard = ({plan}) => {
             className={styles.orderButton} 
             onClick={() => {handleModalToggle()}}
             > 
-            Описание
+            Подробнее
           </button>
         </div>
       </div>          
