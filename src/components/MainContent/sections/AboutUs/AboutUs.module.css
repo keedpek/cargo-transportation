@@ -78,7 +78,6 @@
 
 .imagesContainer {
   width: 300px;
-  height: 500px;
   top: 50px;
   right: 100px;
   position: absolute;
@@ -142,7 +141,7 @@
 
   .imagesContainer {
     right: 30px;
-    top: 100px;
+    top: 170px;
   }
 
   .text {
@@ -173,6 +172,10 @@
   }
 
   .mainImage {
+    display: none;
+  }
+
+  .imagesContainer {
     display: none;
   }
 

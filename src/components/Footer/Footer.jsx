@@ -12,13 +12,13 @@ const Footer = () => {
       <div className={styles.companyInfo}>
         <div className={styles.logoContainer}>
           <img className={styles.logo} src={logo} alt='logo' />
-          <span className={styles.title}>GRUZOPEREVOZKA</span>
+          <span className={styles.title}>ZAVOZKA.BY</span>
         </div>
         <h3 className={styles.h3}>{FOOTER_TEXT}</h3>
       </div>
 
       <div className={styles.footerSection}>
-        <h2 id='contacts'>Контакты :</h2>
+        <h2 id='contacts'>Контакты</h2>
         <div className={styles.contacts}>
           <a href={`tel:${HREF_TELEPHONE_NUMBER}`} className={styles.phone}>{TELEPHONE_NUMBER}</a>
           <div className={styles.buttons}>
@@ -33,7 +33,7 @@ const Footer = () => {
       </div>
 
       <div className={styles.footerSection}>
-        <h2>Меню :</h2>
+        <h2>Меню</h2>
         <ul className={styles.ul}>
           <li className={styles.li}>
             <a href='#services' className={styles.a}>Услуги</a>
