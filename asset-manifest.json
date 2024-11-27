@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "/cargo-transportation/static/css/main.b11969e6.css",
-    "main.js": "/cargo-transportation/static/js/main.8bd82724.js",
+    "main.css": "/cargo-transportation/static/css/main.bb23553c.css",
+    "main.js": "/cargo-transportation/static/js/main.ad5d4180.js",
     "static/media/background.png": "/cargo-transportation/static/media/background.55ca6632067a9aaefafd.png",
-    "static/media/country_transportation.png": "/cargo-transportation/static/media/country_transportation.5ac254a2f6dcdf07e76a.png",
-    "static/media/loader.png": "/cargo-transportation/static/media/loader.33f6be0bf54c4265aeda.png",
     "static/media/city_transportation.png": "/cargo-transportation/static/media/city_transportation.0c5c560f4755c99ab730.png",
+    "static/media/country_transportation.png": "/cargo-transportation/static/media/country_transportation.18451f30e5ec77dfc7f8.png",
     "static/media/aboutUs2.png": "/cargo-transportation/static/media/aboutUs2.4f5a75e2ed4aa4534894.png",
     "static/media/aboutUs1.png": "/cargo-transportation/static/media/aboutUs1.c102870f720f13d27817.png",
     "static/media/garbage.jpg": "/cargo-transportation/static/media/garbage.c3c2107da8fb4dc532c2.jpg",
@@ -13,6 +12,7 @@
     "static/media/van3.png": "/cargo-transportation/static/media/van3.324396d347d23c313a3c.png",
     "static/media/loader_price.jpg": "/cargo-transportation/static/media/loader_price.c8ac4b65aaa6cdaebd6b.jpg",
     "static/media/van25.png": "/cargo-transportation/static/media/van25.45f22e7f8e727ab73848.png",
+    "static/media/loader.png": "/cargo-transportation/static/media/loader.a5254b697ce75aa180e1.png",
     "static/media/van15.png": "/cargo-transportation/static/media/van15.dac6c0a8dbf2f1f514a1.png",
     "static/media/van2.png": "/cargo-transportation/static/media/van2.eff96a653b07f14890a0.png",
     "static/media/van5.png": "/cargo-transportation/static/media/van5.503eb9f91508297b0e0e.png",
@@ -26,11 +26,11 @@
     "static/media/telIcon.svg": "/cargo-transportation/static/media/telIcon.7fe3c318f9cb24241e8f481407c111a2.svg",
     "static/media/telIcoWithoutEclipse.svg": "/cargo-transportation/static/media/telIcoWithoutEclipse.a424d5d76a9fb9627ff3243952f0d116.svg",
     "index.html": "/cargo-transportation/index.html",
-    "main.b11969e6.css.map": "/cargo-transportation/static/css/main.b11969e6.css.map",
-    "main.8bd82724.js.map": "/cargo-transportation/static/js/main.8bd82724.js.map"
+    "main.bb23553c.css.map": "/cargo-transportation/static/css/main.bb23553c.css.map",
+    "main.ad5d4180.js.map": "/cargo-transportation/static/js/main.ad5d4180.js.map"
   },
   "entrypoints": [
-    "static/css/main.b11969e6.css",
-    "static/js/main.8bd82724.js"
+    "static/css/main.bb23553c.css",
+    "static/js/main.ad5d4180.js"
   ]
 }
