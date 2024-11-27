@@ -17,7 +17,7 @@ const Header = () => {
       <div className={styles.companyWrapper}>
         <div className={styles.logoContainer}>
           <img className={styles.logo} src={logo} alt='logo' />
-          <h1 className={styles.h1}>ZAVOZKA.BY</h1>
+          <h1 className={styles.h1}>GRUZOVOZIM.BY</h1>
         </div>
         <span className={styles.phoneNum}>{TELEPHONE_NUMBER}</span>
         <div className={styles.buttons}>

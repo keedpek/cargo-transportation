@@ -12,7 +12,7 @@ const Footer = () => {
       <div className={styles.companyInfo}>
         <div className={styles.logoContainer}>
           <img className={styles.logo} src={logo} alt='logo' />
-          <span className={styles.title}>ZAVOZKA.BY</span>
+          <span className={styles.title}>GRUZOVOZIM.BY</span>
         </div>
         <h3 className={styles.h3}>{FOOTER_TEXT}</h3>
       </div>
