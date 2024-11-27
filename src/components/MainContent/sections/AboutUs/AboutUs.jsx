@@ -6,7 +6,8 @@ import telIco from 'assets/telIcoWithoutEclipse.svg'
 import about1 from 'assets/about1.svg'
 import about2 from 'assets/about2.svg'
 import about3 from 'assets/about3.svg'
-import { ABOUT_DESCKTOP, ABOUT_MOBILE } from 'consts/consts';
+import about4 from 'assets/about4.svg'
+import { ABOUT_DESCKTOP, ABOUT_MOBILE, HREF_TELEPHONE_NUMBER } from 'consts/consts';
 
 const AboutUs = () => {
   return (
@@ -36,6 +37,13 @@ const AboutUs = () => {
 
           <li className={styles.listItem}>
             <div className={styles.liIcon}>
+              <img src={about4} alt='' />
+            </div>
+            <p>{ABOUT_MOBILE.p4}</p>
+          </li>
+
+          <li className={styles.listItem}>
+            <div className={styles.liIcon}>
               <img src={about3} alt='' />
             </div>
             <p>{ABOUT_MOBILE.p3}</p>
@@ -43,7 +51,7 @@ const AboutUs = () => {
 
         </ul>
       </div>
-      <a href="#contacts" class={styles.contactButton}>
+      <a href={`tel:${HREF_TELEPHONE_NUMBER}`} class={styles.contactButton}>
         <img className={styles.telIco} src={telIco} alt=''/>
         <span>Связаться с нами</span>
       </a>

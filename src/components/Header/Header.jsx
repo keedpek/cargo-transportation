@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styles from './Header.module.css'
-import { TELEPHONE_NUMBER } from 'consts/consts';
+import { HREF_TELEPHONE_NUMBER, TELEPHONE_NUMBER } from 'consts/consts';
 import tgIco from 'assets/telegramIcon.svg'
 import viberIco from 'assets/viber.svg'
 import logo from 'assets/logo.svg'
@@ -19,14 +19,13 @@ const Header = () => {
           <img className={styles.logo} src={logo} alt='logo' />
           <h1 className={styles.h1}>GRUZOPEREVOZKA</h1>
         </div>
-        <div className={styles.vertical} />
         <span className={styles.phoneNum}>{TELEPHONE_NUMBER}</span>
         <div className={styles.buttons}>
-          <a target='_blank' rel='noreferrer' href={`https://t.me/${TELEPHONE_NUMBER}`}>
-            <img src={tgIco} alt='telegram'/>
+          <a target='_blank' rel='noreferrer' href={`https://t.me/${HREF_TELEPHONE_NUMBER}`}>
+            <img className={styles.socials} src={tgIco} alt='telegram'/>
           </a>
-          <a target='_blank' rel='noreferrer' href={`viber://chat?number=${TELEPHONE_NUMBER}`}>
-            <img src={viberIco} alt='viber'/>
+          <a target='_blank' rel='noreferrer' href={`viber://chat?number=375445381585`}>
+            <img className={styles.socials} src={viberIco} alt='viber'/>
           </a>
         </div>
       </div>

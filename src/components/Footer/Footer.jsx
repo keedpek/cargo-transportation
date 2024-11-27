@@ -25,7 +25,7 @@ const Footer = () => {
             <a target='_blank' rel='noreferrer' href={`https://t.me/${HREF_TELEPHONE_NUMBER}`}>
               <img className={styles.icons} src={tgIco} alt='telegram'/>
             </a>
-            <a target='_blank' rel='noreferrer' href={`viber://chat?number=375333747776`}>
+            <a target='_blank' rel='noreferrer' href={`viber://chat?number=375445381585`}>
               <img className={styles.icons} src={viberIco} alt='viber'/>
             </a>
           </div>
