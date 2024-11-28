@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from './Footer.module.css'
-import tgIco from 'assets/telegramIcon.svg'
-import viberIco from 'assets/viber.svg'
-import logo from 'assets/logo.svg'
-import { FOOTER_TEXT, HREF_TELEPHONE_NUMBER, TELEPHONE_NUMBER } from 'consts/consts';
+import tgIco from '../../assets/telegramIcon.svg'
+import viberIco from '../../assets/viber.svg'
+import logo from '../../assets/logo.svg'
+import { FOOTER_TEXT, HREF_TELEPHONE_NUMBER, TELEPHONE_NUMBER } from '../../consts/consts';
 
 const Footer = () => {
   return (

@@ -1,18 +1,18 @@
 //service images
-import city from 'assets/city_transportation.png'
-import country from 'assets/country_transportation.png'
-import loader from 'assets/loader.png'
+import city from '../assets/city_transportation.png'
+import country from '../assets/country_transportation.png'
+import loader from '../assets/loader.png'
 
 //price images
-import van1 from 'assets/van1.png'
-import van15 from 'assets/van15.png'
-import van2 from 'assets/van2.png'
-import van25 from 'assets/van25.png'
-import van3 from 'assets/van3.png'
-import van5 from 'assets/van5.png'
-import loaderPrice from 'assets/loader_price.jpg'
-import floor from 'assets/floor.jpg'
-import garbage from 'assets/garbage.jpg'
+import van1 from '../assets/van1.png'
+import van15 from '../assets/van15.png'
+import van2 from '../assets/van2.png'
+import van25 from '../assets/van25.png'
+import van3 from '../assets/van3.png'
+import van5 from '../assets/van5.png'
+import loaderPrice from '../assets/loader_price.jpg'
+import floor from '../assets/floor.jpg'
+import garbage from '../assets/garbage.jpg'
 
 export const MAIN_ROUTE = '/'
 

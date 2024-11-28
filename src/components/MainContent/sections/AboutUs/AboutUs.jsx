@@ -1,13 +1,13 @@
 import React from 'react';
 import styles from './AboutUs.module.css'
-import van from 'assets/aboutUs1.png'
-import team from 'assets/aboutUs2.png'
-import telIco from 'assets/telIcoWithoutEclipse.svg'
-import about1 from 'assets/about1.svg'
-import about2 from 'assets/about2.svg'
-import about3 from 'assets/about3.svg'
-import about4 from 'assets/about4.svg'
-import { ABOUT_DESCKTOP, ABOUT_MOBILE, HREF_TELEPHONE_NUMBER } from 'consts/consts';
+import van from '../../../../assets/aboutUs1.png'
+import team from '../../../../assets/aboutUs2.png'
+import telIco from '../../../../assets/telIcoWithoutEclipse.svg'
+import about1 from '../../../../assets/about1.svg'
+import about2 from '../../../../assets/about2.svg'
+import about3 from '../../../../assets/about3.svg'
+import about4 from '../../../../assets/about4.svg'
+import { ABOUT_DESCKTOP, ABOUT_MOBILE, HREF_TELEPHONE_NUMBER } from '../../../../consts/consts';
 
 const AboutUs = () => {
   return (
@@ -51,7 +51,7 @@ const AboutUs = () => {
 
         </ul>
       </div>
-      <a href={`tel:${HREF_TELEPHONE_NUMBER}`} class={styles.contactButton}>
+      <a href={`tel:${HREF_TELEPHONE_NUMBER}`} className={styles.contactButton}>
         <img className={styles.telIco} src={telIco} alt=''/>
         <span>Связаться с нами</span>
       </a>

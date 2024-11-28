@@ -1,5 +1,5 @@
 import { MAIN_ROUTE } from "../consts/consts";
-import MainPage from 'pages/MainPage'
+import MainPage from '../pages/MainPage'
 
 export const routes = [
   {

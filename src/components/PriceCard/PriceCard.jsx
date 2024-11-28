@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styles from './PriceCard.module.css'
-import Modal from 'components/Modal/Modal';
+import Modal from '../../components/Modal/Modal';
 
 const PriceCard = ({plan}) => {
   const [isModalOpen, setIsModalOpen] = useState()

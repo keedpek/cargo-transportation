@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Services.module.css'
-import { SERVICES } from 'consts/consts';
-import ServiceCard from 'components/ServiceCard/ServiceCard';
+import { SERVICES } from '../../../../consts/consts';
+import ServiceCard from '../../../../components/ServiceCard/ServiceCard';
 
 const Services = () => {
   return (

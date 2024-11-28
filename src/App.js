@@ -1,12 +1,8 @@
-import { BrowserRouter } from "react-router-dom";
-import AppRouter from "routers/AppRouter";
+import React from "react";
+import AppRouter from "./routers/AppRouter";
 
 function App() {
-  return (
-    <BrowserRouter basename="/cargo-transportation">
-      <AppRouter />
-    </BrowserRouter>
-  );
+  return <AppRouter />;
 }
 
 export default App;

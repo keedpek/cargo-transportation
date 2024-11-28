@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Main.module.css'
-import { TELEPHONE_NUMBER } from 'consts/consts';
-import icon from 'assets/telIcon.svg'
+import { TELEPHONE_NUMBER } from '../../../../consts/consts';
+import icon from '../../../../assets/telIcon.svg'
 
 const Main = () => {
   return (

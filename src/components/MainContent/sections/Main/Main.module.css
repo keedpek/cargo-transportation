@@ -5,7 +5,7 @@
   background-repeat: no-repeat;
   background-position: left center;
   background-size: cover;
-  background-image: url("assets/background.png");
+  background-image: url("../../../../assets/background.png");
 }
 
 .wrapper::before {
@@ -58,7 +58,7 @@
   background-size: cover;
   width: 50px;
   height: 50px;
-  background-image: url("assets/telIcon.svg");
+  background-image: url("../../../../assets/telIcon.svg");
   cursor: pointer;
   &:focus {
     outline: none;

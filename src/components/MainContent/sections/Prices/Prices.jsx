@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Prices.module.css'
-import { MAIN_PRICES, ADD_PRICES } from 'consts/consts';
-import PriceCard from 'components/PriceCard/PriceCard';
+import { MAIN_PRICES, ADD_PRICES } from '../../../../consts/consts';
+import PriceCard from '../../../../components/PriceCard/PriceCard';
 
 const Prices = () => {
   return (

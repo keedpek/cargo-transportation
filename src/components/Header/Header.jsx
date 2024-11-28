@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import styles from './Header.module.css'
-import { HREF_TELEPHONE_NUMBER, TELEPHONE_NUMBER } from 'consts/consts';
-import tgIco from 'assets/telegramIcon.svg'
-import viberIco from 'assets/viber.svg'
-import logo from 'assets/logo.svg'
+import { HREF_TELEPHONE_NUMBER, TELEPHONE_NUMBER } from '../../consts/consts';
+import tgIco from '../../assets/telegramIcon.svg'
+import viberIco from '../../assets/viber.svg'
+import logo from '../../assets/logo.svg'
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
