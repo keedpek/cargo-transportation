@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.8a10d88c.css",
-    "main.js": "./static/js/main.364d3f4d.js",
+    "main.js": "./static/js/main.490ea7d6.js",
     "static/media/background.png": "./static/media/background.55ca6632067a9aaefafd.png",
     "static/media/city_transportation.png": "./static/media/city_transportation.0c5c560f4755c99ab730.png",
     "static/media/country_transportation.png": "./static/media/country_transportation.18451f30e5ec77dfc7f8.png",
@@ -28,10 +28,10 @@
     "static/media/telIcoWithoutEclipse.svg": "./static/media/telIcoWithoutEclipse.a424d5d76a9fb9627ff3243952f0d116.svg",
     "static/media/about4.svg": "./static/media/about4.0040b7276175d3d8e5ce0fb6548bfb7c.svg",
     "main.8a10d88c.css.map": "./static/css/main.8a10d88c.css.map",
-    "main.364d3f4d.js.map": "./static/js/main.364d3f4d.js.map"
+    "main.490ea7d6.js.map": "./static/js/main.490ea7d6.js.map"
   },
   "entrypoints": [
     "static/css/main.8a10d88c.css",
-    "static/js/main.364d3f4d.js"
+    "static/js/main.490ea7d6.js"
   ]
 }
