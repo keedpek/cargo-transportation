@@ -31,7 +31,7 @@
 
 .h2 {
   color: #ffffff;
-  width: 50%;
+  width: 80%;
   font-size: 46px;
   font-weight: 500;
 }
@@ -84,7 +84,7 @@
   }
 
   .info {
-    top: 20%;
+    top: 10%;
     left: 5%;
     width: 60%;
   }
@@ -118,13 +118,13 @@
   }
 
   .info {
-    top: 15%;
+    top: 10%;
     left: 5%;
     width: 90%;
   }
 
   .h2 {
-    font-size: 28px;
+    font-size: 22px;
     width: 100%;
   }
 
@@ -134,11 +134,11 @@
   }
 
   .telephone {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .telButton {
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
   }
 }

@@ -4,20 +4,11 @@ import './index.css';
 import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 
-ReactDOM.hydrate(
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter /*basename="/cargo-transportation"*/>
       <App />
     </BrowserRouter>
-  </React.StrictMode>,
-  document.getElementById('root')
+  </React.StrictMode>
 );
-
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-// root.render(
-//   <React.StrictMode>
-//     <BrowserRouter basename='/cargo-transportation'>
-//       <App />
-//     </BrowserRouter>
-//   </React.StrictMode>
-// );

@@ -52,6 +52,8 @@
   background: linear-gradient(135deg, #00b7ff 0%, #061af1 100%);
   background-clip: text;
   color: transparent;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .description {
