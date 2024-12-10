@@ -11,6 +11,7 @@ const PORT = process.env.PORT || 8000
 
 const app = express()
 
+app.use('/static', express.static(path.resolve(__dirname, '..', 'build/static')))
 app.use('^/$', (req, res, next) => {
   fs.readFile(path.resolve('./build/index.html'), 'utf-8', (err, data) => {
     if (err) {
@@ -27,7 +28,6 @@ app.use('^/$', (req, res, next) => {
   })
 })
 app.use(express.static(path.resolve(__dirname, '..', 'build')))
-app.use('/static', express.static(path.resolve(__dirname, '..', 'build/static')))
 
 
 
